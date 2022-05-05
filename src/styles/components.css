@@ -1,0 +1,10 @@
+@layer components{
+  .link {
+    @apply text-indigo-200 hover:text-indigo-600
+  }
+  .card{
+    .link{
+      @apply text-green-200 hover:text-green-600
+    }
+  }
+}
